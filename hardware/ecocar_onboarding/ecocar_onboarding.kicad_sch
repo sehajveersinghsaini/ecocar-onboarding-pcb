@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "86643673-58dc-4674-9647-fd3711b1f519")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "EcoCar Onboarding Board")
 		(rev "v0.1")
@@ -1098,9 +1098,163 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 226.06 97.79)
+		(end 273.05 146.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1d44b97d-399c-4c05-83a3-ce9e08002cd2")
+	)
+	(rectangle
+		(start 127 41.91)
+		(end 175.26 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "28036041-0b83-4bd4-8c03-dbc63902958d")
+	)
+	(rectangle
+		(start 129.54 93.98)
+		(end 184.15 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3a686c64-1da8-44a6-9565-59b86ff4fe67")
+	)
+	(rectangle
+		(start 190.5 180.34)
+		(end 246.38 224.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a050bfe7-7464-467a-bfff-1a0eb1e5dbc1")
+	)
+	(rectangle
+		(start 120.65 171.45)
+		(end 185.42 229.87)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b4ecd7e5-829b-4d1b-8744-602fcd896102")
+	)
+	(rectangle
+		(start 222.25 57.15)
+		(end 266.7 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "bb520e1d-9e2f-415a-8bfb-ae566189a1b9")
+	)
+	(rectangle
+		(start 176.53 43.18)
+		(end 220.98 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "edc38038-3272-4ce3-9123-2b5489b87545")
+	)
+	(text "PROGRAMMING"
+		(exclude_from_sim no)
+		(at 230.632 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "152fe9cd-bd23-4a5d-9ba5-28cd62df114f")
+	)
+	(text "POWER"
+		(exclude_from_sim no)
+		(at 182.626 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4112c2e9-8559-4896-a1d0-569724bdb623")
+	)
+	(text "CRYSTAL"
+		(exclude_from_sim no)
+		(at 135.636 97.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b3912c4a-2e14-415e-a3dc-d389f4ccfaba")
+	)
+	(text "USB-C"
+		(exclude_from_sim no)
+		(at 132.842 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bf6e7831-c146-4f6a-a3a8-bfd13b983a7c")
+	)
+	(text "HEADERS"
+		(exclude_from_sim no)
+		(at 197.612 183.896 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dfd9fab2-08b3-4708-9919-470f0ee0feef")
+	)
+	(text "BUTTONS & KNOB"
+		(exclude_from_sim no)
+		(at 130.81 175.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e045053d-594a-4c33-ac86-78c657f03123")
+	)
+	(text "LEDS"
+		(exclude_from_sim no)
+		(at 231.14 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e09dee55-e85c-40b5-bcbd-31d584dd709c")
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32F1:STM32F103C8Tx")
-		(at 134.62 96.52 0)
+		(at 205.74 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1111,7 +1265,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0d251e8-0372-47b2-b634-c28397f39701")
 		(property "Reference" "U1"
-			(at 139.3033 137.16 0)
+			(at 210.4233 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1122,7 +1276,7 @@
 			)
 		)
 		(property "Value" "STM32F103C8Tx"
-			(at 139.3033 139.7 0)
+			(at 210.4233 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1133,7 +1287,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
-			(at 119.38 134.62 0)
+			(at 190.5 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1145,7 +1299,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf"
-			(at 134.62 96.52 0)
+			(at 205.74 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1156,7 +1310,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
-			(at 134.62 96.52 0)
+			(at 205.74 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
