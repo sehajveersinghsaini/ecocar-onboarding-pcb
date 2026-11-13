@@ -6422,6 +6422,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 208.28 241.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "075c51c3-81b4-4ca5-a320-9d6caf85d351")
+		(property "Reference" "#PWR072"
+			(at 212.09 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 204.47 241.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 208.28 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ece9182a-1215-4a9a-bf13-042081ea44b4")
+		)
+		(instances
+			(project "ecocar_onboarding"
+				(path "/86643673-58dc-4674-9647-fd3711b1f519"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 295.91 130.81 90)
 		(unit 1)
@@ -7809,7 +7888,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "GREEN"
 			(at 293.3065 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9668,7 +9747,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "GREEN"
 			(at 293.3065 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10334,7 +10413,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "YELLOW"
 			(at 260.2865 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10404,8 +10483,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 213.36 236.22 0)
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 213.36 238.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10416,7 +10495,7 @@
 		(fields_autoplaced yes)
 		(uuid "6114e9f8-2fc9-40c5-b139-d4974e7dbb1b")
 		(property "Reference" "J8"
-			(at 215.9 236.2199 0)
+			(at 215.9 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10426,8 +10505,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 215.9 238.7599 0)
+		(property "Value" "Conn_01x06"
+			(at 215.9 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10437,8 +10516,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 213.36 236.22 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 213.36 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10449,7 +10528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 236.22 0)
+			(at 213.36 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10459,8 +10538,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 213.36 236.22 0)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10481,6 +10560,12 @@
 		)
 		(pin "4"
 			(uuid "18350ac5-0195-4d24-b1ad-0008995840ca")
+		)
+		(pin "5"
+			(uuid "2cb725ec-66d4-456a-b981-973952049949")
+		)
+		(pin "6"
+			(uuid "55ca7dd1-8ed7-4dee-97cc-cf973302a76e")
 		)
 		(instances
 			(project "ecocar_onboarding"
@@ -11461,7 +11546,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 208.28 236.22 90)
+		(at 208.28 238.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11472,7 +11557,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a2eb46e-a96f-4610-b68e-ddb8e440743f")
 		(property "Reference" "#PWR064"
-			(at 212.09 236.22 0)
+			(at 212.09 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11483,7 +11568,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 204.47 236.2199 90)
+			(at 204.47 238.7599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11494,7 +11579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 236.22 0)
+			(at 208.28 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11505,7 +11590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 236.22 0)
+			(at 208.28 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11516,7 +11601,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 208.28 236.22 0)
+			(at 208.28 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12316,7 +12401,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "YELLOW"
 			(at 293.3065 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14230,6 +14315,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 208.28 236.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c363ee7c-dd0d-4121-a5a3-042025385ece")
+		(property "Reference" "#PWR071"
+			(at 212.09 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 204.47 236.2199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 208.28 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "def010df-ec57-43f0-8c9a-575a2b4e210b")
+		)
+		(instances
+			(project "ecocar_onboarding"
+				(path "/86643673-58dc-4674-9647-fd3711b1f519"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 209.55 212.09 180)
 		(unit 1)
@@ -14851,7 +15015,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "GREEN"
 			(at 260.2865 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15336,7 +15500,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "YELLOW"
 			(at 260.2865 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15883,7 +16047,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 241.3 270)
+		(at 208.28 246.38 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15894,7 +16058,7 @@
 		(fields_autoplaced yes)
 		(uuid "e87bc971-b14c-4a42-9476-af8b4f5cce9b")
 		(property "Reference" "#PWR066"
-			(at 201.93 241.3 0)
+			(at 201.93 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15905,7 +16069,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 241.2999 90)
+			(at 204.47 246.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15916,7 +16080,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 241.3 0)
+			(at 208.28 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15927,7 +16091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 241.3 0)
+			(at 208.28 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15938,7 +16102,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 241.3 0)
+			(at 208.28 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16123,7 +16287,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 238.76 270)
+		(at 208.28 243.84 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16134,7 +16298,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee3d9890-810b-4199-84ca-d936e4f540e1")
 		(property "Reference" "#PWR065"
-			(at 201.93 238.76 0)
+			(at 201.93 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16145,7 +16309,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 238.7599 90)
+			(at 204.47 243.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16156,7 +16320,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 238.76 0)
+			(at 208.28 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16167,7 +16331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 238.76 0)
+			(at 208.28 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16178,7 +16342,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 238.76 0)
+			(at 208.28 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

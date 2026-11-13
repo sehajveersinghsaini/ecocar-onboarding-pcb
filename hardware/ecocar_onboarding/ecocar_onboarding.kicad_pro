@@ -72,7 +72,7 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|175940000|121050000|a721a17d-4a98-49b7-bda4-3dbf6e396ec1|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|175940000|123050000|a721a17d-4a98-49b7-bda4-3dbf6e396ec1|00000000-0000-0000-0000-000000000000",
           "USB-C mouth silk line trimmed on purpose so it does not hang past the board edge"
         ]
       ],
